@@ -27,6 +27,7 @@ public class JumpFloor {
                 }catch (java.util.InputMismatchException e){
                     System.out.println("你没有输入数字，程序很生气即将退出");
                     flag = false;
+
                 }
             }
 
