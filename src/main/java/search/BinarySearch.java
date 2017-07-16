@@ -22,6 +22,7 @@ public class BinarySearch {
         }
         if(A[left]==val){
            return left;
+
         }
         return -1;
     }
