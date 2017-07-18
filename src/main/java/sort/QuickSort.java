@@ -40,7 +40,8 @@ public class QuickSort {
 
     public static void main(String[] args) {
         int []array={1,5,7,6,9,8,2,6,4,1,0,3,6,4,7,98,1,77,88,99,44,1};
-        sort(array,0,21);
+        //调用的时候要注意，最后一个参数为数组最后一个元素的下标，而不是数组长度！！！！
+        sort(array,0,array.length-1);
         for (int i :array
              ) {
             System.out.print(i+" ");
