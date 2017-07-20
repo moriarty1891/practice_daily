@@ -13,7 +13,7 @@ public class BinaryTree {
         for (int treeNodeData : tree) {
             list.add( new TreeNode(treeNodeData));
         }
-        for(int parentNode = 0 ;parentNode< tree.length -1 ; parentNode++){
+        for(int parentNode = 0 ;parentNode< tree.length/2 -1 ; parentNode++){
             //初始化左儿子
             list.get(parentNode).setLeftChild(list.get(parentNode*2 + 1));
             //初始化右儿子
