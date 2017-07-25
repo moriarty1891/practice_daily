@@ -11,7 +11,7 @@ public class ReverseList {
         //head为当前节点，如果当前节点为空的话，直接返回null；
         if(head==null)return  null;
         ListNode pre = null;
-        ListNode next = null;
+        ListNode next ;
         //做循环，如果当前节点不为空的话，始终执行此循环，此循环的目的就是让当前节点从指向next到指向pre
         //如此就可以做到反转链表的效果
         //先用next保存head的下一个节点的信息，保证单链表不会因为失去head节点的原next节点而就此断裂
