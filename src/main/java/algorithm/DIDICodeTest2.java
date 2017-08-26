@@ -14,7 +14,7 @@ public class DIDICodeTest2 {
         return a[n - K];
     }
 
-    //下面是快排经典代码
+
     public static void quickSort(int[] a, int start, int end) {
         if (start < end) {
             int i = partition(a, start, end);
