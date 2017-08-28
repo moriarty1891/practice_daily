@@ -1,4 +1,4 @@
-package algorithm;
+package binarytree;
 
 /**
  * Created by 24323 on 2017/7/24.
