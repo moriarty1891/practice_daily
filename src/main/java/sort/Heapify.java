@@ -10,6 +10,7 @@ public class Heapify {
             heapify(A, i);
     }
 
+
     public void heapify(int[] A, int i) {
         //左孩子
         int l = 2 * i + 1;
