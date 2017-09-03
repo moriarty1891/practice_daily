@@ -2,6 +2,7 @@ package sort;
 
 /**
  * 堆化数组，递归解决。
+ * 给一个数组建立小顶堆。
  */
 public class Heapify {
     public void heapify(int[] A) {
