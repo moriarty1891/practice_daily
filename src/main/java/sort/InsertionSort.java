@@ -11,23 +11,25 @@ public class InsertionSort {
             System.out.print(a[i] +" ");
         }
 
-        //假设后面的序列是有序的，每次从剩余数组中取出最后一个，插入到有序数组的合适位置
-        for (int i = 1; i <a.length ; i++) {
-            int temp = a[i];
-            int j;
-                for(j=i-1;j>=0;j--){
-                    if(a[j] > temp ){
-                         a[j+1] = a[j];
-                }   else break;
 
+
+        for(int i=1;i<a.length;i++){//从头部第一个当做已经排好序的，把后面的一个一个的插到已经排好的列表中去。
+            if(a[i]<a[i-1]){
+                int j;
+                int x=a[i];//x为待插入元素
+                a[i]=a[i-1];//直接后移一个，空出一个坑
+                for(j=i-1;  j>=0 && x<a[j];j--){//x需要小于比他大的元素。
+                    //通过循环，逐个后移一位找到要插入的位置。
+                    a[j+1]=a[j];
+                }
+                a[j+1]=x;//插入
             }
-            a[j+1] = temp;
         }
 
 
 
 
-        System.out.println();
+            System.out.println();
         System.out.println("after sort：");
         for (int i = 0; i <a.length ; i++) {
             System.out.print(a[i] +" ");
