@@ -1,13 +1,19 @@
 package binarytree;
 
+import tools.TreeNode;
+
 import java.util.ArrayList;
 import java.util.List;
 
 /**
  * Created by zhujia on 2017/7/20.
  */
-public class BinaryTree {
-    //初始化二叉树
+public class InitBinaryTree {
+    /**
+     * 初始化二叉树
+     * @param tree
+     * @return
+     */
     public static List<TreeNode> initBinaryTree(int[] tree){
         List<TreeNode> list = new ArrayList<>();
         for (int treeNodeData : tree) {
