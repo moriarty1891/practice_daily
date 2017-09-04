@@ -1,4 +1,4 @@
-package algorithm;
+package arrays;
 
 import java.util.HashMap;
 import java.util.Set;

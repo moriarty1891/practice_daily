@@ -1,4 +1,4 @@
-package algorithm;
+package lists;
 
 import tools.ListNode;
 

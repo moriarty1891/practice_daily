@@ -1,4 +1,4 @@
-package algorithm;
+package pc_test;
 
 //中兴笔试题，通过60%
 

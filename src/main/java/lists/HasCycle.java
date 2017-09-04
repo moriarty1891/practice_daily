@@ -1,4 +1,4 @@
-package algorithm;
+package lists;
 
 /**
  * Created by zhujia on 2017/7/24.
