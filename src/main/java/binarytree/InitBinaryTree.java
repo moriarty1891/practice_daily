@@ -15,6 +15,7 @@ public class InitBinaryTree {
      * @return
      */
     public static List<TreeNode> initBinaryTree(int[] tree){
+
         List<TreeNode> list = new ArrayList<>();
         for (int treeNodeData : tree) {
             list.add( new TreeNode(treeNodeData));
