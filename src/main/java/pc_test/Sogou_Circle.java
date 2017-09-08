@@ -1,4 +1,4 @@
-package algorithm;
+package pc_test;
 
 import java.text.DecimalFormat;
 import java.util.Scanner;
