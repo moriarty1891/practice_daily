@@ -1,6 +1,7 @@
 package sort;
 
 /**
+ * 冒泡排序，时间复杂度：n^2 改进后最好情况时间复杂度：n
  * Created by zhujia on 2017/7/16.
  */
        /* 基本思想：

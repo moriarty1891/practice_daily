@@ -17,7 +17,5 @@ public class DecimalConversion {
         while (scanner.hasNext()){
             System.out.println(calculation(scanner.next()));
         }
-
-
     }
 }

@@ -1,4 +1,4 @@
-package algorithm;
+package arrays;
 
 /**
  * Created by zhujia on 2017/7/25.

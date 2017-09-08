@@ -16,14 +16,16 @@ public class QuickSort {
     public static int partition(int []array,int low,int high){
         int key = array[low];
         while (low<high){
+            // 从右向左找小于key的数填到坑里
             while (array[high] >= key && low < high){
                 high--;
                 //进去循环之后要一直保证i小于j才能有意义，最外面的while条件只在进入循环体时进行判断。
             }if(low<high){
+                //将array[high]填到array[low]中，array[high]就形成了一个新的坑
                 array[low]=array[high];
                 low++;
             }
-
+            // 从左向右找大于key的数填到坑里
             while (array[low] < key && low < high){
                 low++;
             }if(low<high){
@@ -31,13 +33,14 @@ public class QuickSort {
                 high--;
             }
         }
+        //退出时，low等于high。将key填到这个坑中。
         array[low]=key;
         return high;
     }
 
     public static void sort(int[] array,int low ,int high){
         if(low>=high){
-            return ;
+                return ;
         }
         int index=partition(array,low,high);
         sort(array,low,index-1);
