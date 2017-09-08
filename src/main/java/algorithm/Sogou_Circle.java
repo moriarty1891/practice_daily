@@ -3,7 +3,7 @@ package algorithm;
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
-public class Main {
+public class Sogou_Circle {
 
     public static String calculation(double[] array){
         DecimalFormat df =new DecimalFormat("0.00000000");
