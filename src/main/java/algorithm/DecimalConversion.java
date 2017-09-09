@@ -8,7 +8,7 @@ import java.util.Scanner;
  */
 public class DecimalConversion {
     public static int calculation (String num){
-
+        //把16进制转换成10进制
         return Integer.valueOf(num.substring(2),16);
     }
 
