@@ -18,6 +18,7 @@ public class Find2DimensionalArray {
     public boolean Find(int target, int[][] array) {
         //行标
         int len = array.length - 1;
+        //第i列
         int i = 0;
         while ((len >= 0) && (i < array[0].length)) {
             if (array[len][i] > target) {
