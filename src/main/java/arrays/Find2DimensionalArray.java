@@ -25,9 +25,8 @@ public class Find2DimensionalArray {
                 len--;
             } else if (array[len][i] < target) {
                 i++;
-            } else {
-                return true;
-            }
+            } else return true;
+
         }
         return false;
 
